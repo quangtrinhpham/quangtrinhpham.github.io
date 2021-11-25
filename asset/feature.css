@@ -1,0 +1,120 @@
+#my_resume {
+	background-color: #74CFE9;
+	text-align: center;
+	padding: 60px;
+	color: white;
+	margin: 0;
+}
+#dieu_huong {
+	background-color: black;
+	overflow: hidden;
+}
+
+#dieu_huong a {
+	color: white;
+	padding: 15px 25px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+}
+
+.menu_left {
+	float: left;
+}
+
+.menu_right {
+	float: right;
+}
+
+#dieu_huong a:hover {
+	background-color: whitesmoke;
+	color: black;
+}
+
+#left_side {
+	flex: 30%;
+	background-color: #bcbcbc;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+}
+
+#right_side {
+	flex: 70%;
+	padding: 10px;
+}
+
+
+.left_title {
+	flex: 100%;
+}
+
+
+#flex_container {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+#info_container {
+	display: flex;	
+}
+
+#text {
+	flex: 50%;
+}
+
+#image {
+	flex: 50%;
+	display: block;
+	width: 100%;
+	margin: auto;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+table,th,td {
+	border: 1px black solid;
+	width: 100%;
+}
+
+td{
+	text-align: center;
+}
+
+ul {
+	padding: 10px;
+}
+
+ol {
+	padding: 10px;
+}
+
+#course_container {
+	display: flex;
+	flex-wrap: wrap;
+}
+.course_item {
+	flex: 27%;
+	text-align: center;
+	padding: 10px;
+}
+.image_course {
+	width: 90%;
+}
+
+.course_title {
+	font-weight: bold;
+	font-size: 150%;
+}
+@media (max-width: 800px) {
+	#flex_container{
+		flex-wrap: wrap;
+	}
+	.course_item {
+	flex: 33%;
+	}
+}
